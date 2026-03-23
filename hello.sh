@@ -6,5 +6,5 @@ aws ssm send-command \
   --document-name "AWS-RunShellScript" \
   --parameters commands=["whoami","pwd"] \
   --region us-west-1 \
-  --profile dev-noc
 date
+ifconfig
